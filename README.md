@@ -36,6 +36,15 @@ Ok, we are almost done with setup! Because the *.toml* file is included, you wil
 2.) Then run the command: `cargo build` <-- this will use the *.toml* file to rebuild dependencies.
 <br/>
 3.) Once finished, you should be able to run the web server. To do so, run the command: `cargo leptos watch`
+<br/>
+4.) Now, you can connect to `localhost:3000` and should see the below screen if everything worked!
 
-# Additional Notes
-There may be broken bits of this project, currently it may not compile properly due to a reliance on the `nightly-rust` build.
+## Additional Notes
+There may be broken bits of this project, currently it may not compile properly due to a reliance on the `nightly-rust` build. 
+<br/>
+There also is a file section, this was to *attempt* to recreate the ChatGPT `Code-Interpreter` style of reading in files and then running generated code within a [Jupyter Notebook](https://datacrayon.com/data-analysis-with-rust-notebooks/setup-anaconda-jupyter-and-rust/).
+## Running app
+<picture>
+  <img height="500" width="500" src="https://github.com/JSH5000/RUSTY_LLM/assets/39937127/2abd1af0-718f-4703-bdaa-86b7bc4d077b" alt="Running App" />
+</picture>
+
